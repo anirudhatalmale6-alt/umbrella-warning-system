@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Umbrella - Warning System</title>
+<style>
+ body{font-family:system-ui,-apple-system,"Segoe UI",sans-serif;background:#0b1220;color:#e2e8f0;
+      margin:0;padding:22px 16px 60px;line-height:1.55}
+ .w{max-width:1000px;margin:0 auto}
+ h1{font-size:23px;margin:0 0 4px}
+ .sub{color:#94a3b8;margin:0 0 26px;font-size:15px}
+ h2{font-size:17px;margin:34px 0 6px;border-bottom:1px solid #334155;padding-bottom:6px}
+ p{margin:0 0 12px;color:#cbd5e1}
+ img{max-width:100%;height:auto;display:block;border:1px solid #334155;border-radius:10px;margin:10px 0 4px}
+ .cap{color:#94a3b8;font-size:13px;margin:0 0 18px}
+ .k{color:#fca5a5;font-weight:600}
+ .foot{margin-top:40px;padding-top:14px;border-top:1px solid #334155;color:#64748b;font-size:13px}
+</style>
+</head>
+<body><div class="w">
+<h1>Umbrella &mdash; the Warning System</h1>
+<p class="sub">What it looks like, since the chat window will not show you the pictures.</p>
+
+<h2>1. When something is wrong</h2>
+<p>The red banner sits on <span class="k">every</span> admin page, not one you have to remember
+to visit. Worst thing first. Each alarm carries its urgency, what it actually said, when, and
+what to do about it.</p>
+<img src="desktop-banner.png" alt="The alarm banner on the admin panel">
+<p class="cap">Two alarms, both rated HIGH. The buttons are the two honest choices: put it on
+your list, or say it is dealt with.</p>
+
+<h2>2. The register &mdash; including the checks that are quiet</h2>
+<p>This lists <span class="k">every</span> check the server knows how to make, not just the ones
+going off. A page that only shows what is wrong cannot tell you the difference between
+&ldquo;nothing is wrong&rdquo; and &ldquo;nothing is being watched&rdquo;.</p>
+<img src="desktop-register.png" alt="The alarm register">
+<p class="cap">Third row is green and quiet &mdash; but it is still listed, so you know it is
+being watched.</p>
+
+<h2>3. Scheduled for fixing</h2>
+<p>The middle state. You have seen it, it is on your list, so it stops shouting &mdash; without
+pretending to be fixed. It leaves the banner and stays here with its urgency, the date and who
+scheduled it. <span class="k">Muted, never hidden.</span></p>
+<img src="desktop-scheduled.png" alt="An alarm marked as scheduled for fixing">
+<p class="cap">If that alarm later says something <em>different</em>, it is a different problem
+and it starts shouting again.</p>
+
+<h2>4. On a phone</h2>
+<p>Each alarm becomes its own card. No pinching, no sliding the page sideways.</p>
+<img src="phone-banner.png" alt="The alarm banner on a phone" style="max-width:390px">
+<img src="phone-register.png" alt="The alarm register on a phone" style="max-width:390px">
+
+<div class="foot">
+Umbrella multi-site control plane. The admin login name is blanked out in these pictures on
+purpose. The panel itself is not reachable from the internet &mdash; checked from outside.
+</div>
+</div></body></html>
